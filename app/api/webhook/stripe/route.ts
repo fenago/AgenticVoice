@@ -78,10 +78,23 @@ export async function POST(req: NextRequest) {
           throw new Error("No user found");
         }
 
-        // Update user data + Grant user access to your product. It's a boolean in the database, but could be a number of credits, etc...
+        // Update user data + Grant user access to your product and set role based on plan
         user.priceId = priceId;
         user.customerId = customerId;
         user.hasAccess = true;
+        
+        // Set user role based on plan name
+        if (plan.name === 'Essential') {
+          user.role = 'ESSENTIAL';
+        } else if (plan.name === 'Professional') {
+          user.role = 'PRO';
+        } else if (plan.name === 'Enterprise') {
+          user.role = 'ENTERPRISE';
+        } else {
+          // Default to FREE if the plan name doesn't match
+          user.role = 'FREE';
+        }
+        
         await user.save();
 
         // Extra: send email with user link, product page, etc...
