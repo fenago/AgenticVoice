@@ -1,15 +1,34 @@
-// This is a simplified version for deployment that avoids TypeScript JSX errors
+import * as React from 'react';
 
 /**
- * Placeholder for lazy loading component functionality
- * This would typically use React.lazy but we're implementing a non-JSX version to avoid build errors
+ * Performance utility for lazy loading components
+ * This is a simplified implementation for the deployment build
  */
-export function lazyLoad(importFn: () => Promise<any>): any {
-  // In a real implementation, this would use React.lazy and Suspense
-  // For now, we're returning a simple function that mimics the behavior without JSX
-  return function(props: any): any {
-    // This is just a placeholder that will compile correctly
-    return null;
+export function lazyLoad<T extends React.ComponentType<any>>(
+  importFunction: () => Promise<{ default: T }>
+): React.ComponentType<React.ComponentProps<T>> {
+  // Create a wrapper component that doesn't use JSX syntax
+  return function WrappedComponent(props: React.ComponentProps<T>) {
+    // This is just a placeholder implementation to fix TypeScript errors
+    // The actual lazy loading would be implemented in a real component
+    // This will be replaced by the actual implementation after deployment
+    const [Component, setComponent] = React.useState<React.ComponentType<any> | null>(null);
+    
+    React.useEffect(() => {
+      let mounted = true;
+      importFunction().then(module => {
+        if (mounted) {
+          setComponent(() => module.default);
+        }
+      });
+      return () => { mounted = false; };
+    }, []);
+    
+    if (!Component) {
+      return React.createElement('div', null, 'Loading...');
+    }
+    
+    return React.createElement(Component, props);
   };
 }
 
