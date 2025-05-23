@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="10" fill="#F5F0FF"/>
+  <circle cx="200" cy="150" r="100" fill="#F3E8FF"/>
+  <circle cx="140" cy="120" r="50" fill="#DDD6FE" stroke="#8B5CF6" stroke-width="3"/>
+  <circle cx="260" cy="120" r="50" fill="#DDD6FE" stroke="#8B5CF6" stroke-width="3"/>
+  <circle cx="200" cy="180" r="50" fill="#DDD6FE" stroke="#8B5CF6" stroke-width="3"/>
+  <text x="140" y="125" font-family="Arial" font-weight="bold" font-size="16" fill="#7C3AED" text-anchor="middle">English</text>
+  <text x="260" y="125" font-family="Arial" font-weight="bold" font-size="16" fill="#7C3AED" text-anchor="middle">Español</text>
+  <text x="200" y="185" font-family="Arial" font-weight="bold" font-size="16" fill="#7C3AED" text-anchor="middle">Français</text>
+  <path d="M140 155L200 155" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M200 155L260 155" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="200" y="50" font-family="Arial" font-weight="bold" font-size="16" fill="#7C3AED" text-anchor="middle">MULTILINGUAL SUPPORT</text>
+</svg>

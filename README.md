@@ -1,6 +1,8 @@
 # AgenticVoice.net — AI Voice Agents for Medical & Legal Practices
 
-![AgenticVoice Logo](./app/icon.png)
+<div align="center">
+  <img src="./public/logoAndName.png" alt="AgenticVoice Logo" width="400" />
+</div>
 
 ## Transform Your Practice with AI Employee Voice Agents
 
