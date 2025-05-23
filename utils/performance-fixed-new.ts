@@ -1,15 +1,18 @@
-// This is a simplified version for deployment that avoids TypeScript JSX errors
+import { lazy } from 'react';
+import React from 'react';
 
-/**
- * Placeholder for lazy loading component functionality
- * This would typically use React.lazy but we're implementing a non-JSX version to avoid build errors
- */
-export function lazyLoad(importFn: () => Promise<any>): any {
-  // In a real implementation, this would use React.lazy and Suspense
-  // For now, we're returning a simple function that mimics the behavior without JSX
-  return function(props: any): any {
-    // This is just a placeholder that will compile correctly
-    return null;
+// Simple factory function for lazy-loaded components
+export function lazyLoad<T extends React.ComponentType<any>>(
+  importFn: () => Promise<{ default: T }>
+) {
+  const LazyComponent = lazy(importFn);
+  
+  return function WithSuspense(props: any) {
+    return (
+      <React.Suspense fallback={<div>Loading...</div>}>
+        <LazyComponent {...props} />
+      </React.Suspense>
+    );
   };
 }
 
