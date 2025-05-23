@@ -17,6 +17,12 @@ const userSchema = new mongoose.Schema(
     image: {
       type: String,
     },
+    // User role - determines access level and features available
+    role: {
+      type: String,
+      enum: ['FREE', 'ESSENTIAL', 'PRO', 'ENTERPRISE', 'CUSTOM', 'ADMIN', 'GOD_MODE'],
+      default: 'FREE',
+    },
     // Used in the Stripe webhook to identify the user in Stripe and later create Customer Portal or prefill user credit card details
     customerId: {
       type: String,

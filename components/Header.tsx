@@ -5,9 +5,9 @@ import type { JSX } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import ButtonSignin from "./ButtonSignin";
 import logo from "@/app/icon.png";
 import config from "@/config";
+import AuthButtons from "./AuthButtons";
 
 const links: {
   href: string;
@@ -37,8 +37,7 @@ const links: {
   },
 ];
 
-// Two CTA buttons: Contact (secondary) and Request Demo (primary)
-const contactCta: JSX.Element = <Link href="/#contact" className="btn btn-secondary">Contact</Link>;
+// CTA button: Request Demo (primary)
 const demoCta: JSX.Element = <Link href="/#demo" className="btn btn-primary">Request Demo</Link>;
 
 // A header with a logo on the left, links in the center (like Pricing, etc...), and a CTA (like Get Started or Login) on the right.
@@ -118,9 +117,9 @@ const Header = () => {
           ))}
         </div>
 
-        {/* CTAs on large screens */}
-        <div className="hidden lg:flex lg:justify-end lg:flex-1 gap-4">
-          {contactCta}
+        {/* Auth buttons and CTA on large screens */}
+        <div className="hidden lg:flex lg:justify-end lg:flex-1 gap-4 items-center">
+          <AuthButtons />
           {demoCta}
         </div>
       </nav>
@@ -190,9 +189,9 @@ const Header = () => {
               </div>
             </div>
             <div className="divider"></div>
-            {/* Your CTAs on small screens */}
+            {/* Auth buttons and CTA on small screens */}
             <div className="flex flex-col gap-4">
-              {contactCta}
+              <AuthButtons className="flex-col" />
               {demoCta}
             </div>
           </div>
