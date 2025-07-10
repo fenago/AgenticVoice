@@ -1,0 +1,352 @@
+Pay Per Use
+Active
+$1.25 USD per unit
+•
+Per month
+Edit product
+Pricing
+Price
+​
+Description
+Subscriptions
+Created
+$1.25 USD per unit
+Per month
+Default
+—
+0 active
+Jul 5
+1 result
+Cross-sells
+Suggest a related product for customers to add to their order, right in Checkout.
+Learn more.
+Cross-sells to
+Find a product…
+Features
+No features
+Logs
+POST /v1/products/prod_Scc94CwCJx1IlW
+200 OK
+7/5/25, 3:38:03 AM
+POST /v1/prices
+200 OK
+7/5/25, 3:38:03 AM
+POST /v1/products
+200 OK
+7/5/25, 3:38:02 AM
+Events
+A product with ID prod_Scc94CwCJx1IlW was updated
+7/5/25, 3:38:03 AM
+A new price called price_1RhMvPPsdFeqUwFmNZeHBZXT was created
+7/5/25, 3:38:03 AM
+A new plan called price_1RhMvPPsdFeqUwFmNZeHBZXT was created
+7/5/25, 3:38:03 AM
+A product with ID prod_Scc94CwCJx1IlW was created
+7/5/25, 3:38:02 AM
+Insights
+MRR
+$0.00
+As of Jul 6
+Details
+Product ID
+prod_Scc94CwCJx1IlW
+Marketing feature list
+—
+Description
+No Commitment. Low Volume. Ideal for Testing.Get started without a monthly plan. Includes basic features, email support only, and is perfect for trial users or seasonal practices making under 100 calls/month.
+Attributes
+—
+View more
+Metadata
+
+
+Starter
+Active
+2 prices
+Edit product
+Pricing
+Price
+​
+Description
+Subscriptions
+Created
+$299.00 USD
+Per month
+Default
+—
+0 active
+Jul 5
+$899.00 USD
+Per month
+Archived
+—
+0 active
+Jul 4
+2 results
+Cross-sells
+Suggest a related product for customers to add to their order, right in Checkout.
+Learn more.
+Cross-sells to
+Find a product…
+Features
+No features
+Logs
+POST /v1/products/prod_ScQa68B3EWN2zf
+200 OK
+7/5/25, 3:41:13 AM
+POST /v1/prices
+200 OK
+7/5/25, 3:41:13 AM
+POST /v1/products/prod_ScQa68B3EWN2zf
+200 OK
+7/5/25, 3:41:12 AM
+POST /v1/products/prod_ScQa68B3EWN2zf
+200 OK
+7/4/25, 3:41:19 PM
+POST /v1/prices
+200 OK
+7/4/25, 3:41:19 PM
+Inspect more logs in Workbench
+Events
+The price_1RhBjnPsdFeqUwFmkbR8MMzG price was updated
+7/5/25, 4:17:05 AM
+The price_1RhBjnPsdFeqUwFmkbR8MMzG plan changed
+7/5/25, 4:17:05 AM
+A product with ID prod_ScQa68B3EWN2zf was updated
+7/5/25, 3:41:13 AM
+A new price called price_1RhMyTPsdFeqUwFmPpSMVGOM was created
+7/5/25, 3:41:13 AM
+A new plan called price_1RhMyTPsdFeqUwFmPpSMVGOM was created
+7/5/25, 3:41:13 AM
+The price_1RhBjnPsdFeqUwFmLv1Cn2jF price was deleted
+7/5/25, 3:41:13 AM
+The price_1RhBjnPsdFeqUwFmLv1Cn2jF plan was deleted
+7/5/25, 3:41:13 AM
+A product with ID prod_ScQa68B3EWN2zf was updated
+7/5/25, 3:41:12 AM
+A product with ID prod_ScQa68B3EWN2zf was updated
+7/4/25, 3:41:19 PM
+A new price called price_1RhBjnPsdFeqUwFmLv1Cn2jF was created
+7/4/25, 3:41:19 PM
+Inspect more events in Workbench
+Insights
+MRR
+$0.00
+As of Jul 6
+Details
+Product ID
+prod_ScQa68B3EWN2zf
+Marketing feature list
+—
+Description
+Smart Start for Growing PracticesIncludes 300 minutes ($0.99/min value), 1 AI voice agent, basic call routing & scheduling, and standard integrations (calendars, basic CRM). Setup & training included. Email support. Ideal for solo providers & small clinics handling 50–100 calls/day.
+Attributes
+—
+View more
+Metadata
+No metadata
+
+Business
+Active
+$999.00 USD
+•
+Per month
+Edit product
+Pricing
+Price
+​
+Description
+Subscriptions
+Created
+$999.00 USD
+Per month
+Default
+—
+0 active
+Jul 5
+1 result
+Cross-sells
+Suggest a related product for customers to add to their order, right in Checkout.
+Learn more.
+Cross-sells to
+Find a product…
+Features
+No features
+Logs
+POST /v1/products/prod_SccL18Pwsbxt7Z
+200 OK
+7/5/25, 3:50:07 AM
+POST /v1/prices
+200 OK
+7/5/25, 3:50:06 AM
+POST /v1/products
+200 OK
+7/5/25, 3:50:05 AM
+Events
+A product with ID prod_SccL18Pwsbxt7Z was updated
+7/5/25, 3:50:07 AM
+A new price called price_1RhN74PsdFeqUwFmLrUy2uGT was created
+7/5/25, 3:50:06 AM
+A new plan called price_1RhN74PsdFeqUwFmLrUy2uGT was created
+7/5/25, 3:50:06 AM
+A product with ID prod_SccL18Pwsbxt7Z was created
+7/5/25, 3:50:05 AM
+Insights
+MRR
+$0.00
+As of Jul 6
+Details
+Product ID
+prod_SccL18Pwsbxt7Z
+Marketing feature list
+—
+Description
+Enterprise-Ready for Busy, Multi-Location Teams Includes 1,123 minutes ($0.89/min value), 3 AI voice agents, and support for custom integrations and advanced analytics/reporting. Comes with a dedicated support team, staff training, and multi-location capabilities. Ideal for group practices and multi-attorney firms handling 200–400 calls/day.
+Attributes
+—
+View more
+Metadata
+No metadata
+
+Professional
+Active
+$599.00 USD
+•
+Per month
+Edit product
+Pricing
+Price
+​
+Description
+Subscriptions
+Created
+$599.00 USD
+Per month
+Default
+—
+0 active
+Jul 5
+1 result
+Cross-sells
+Suggest a related product for customers to add to their order, right in Checkout.
+Learn more.
+Cross-sells to
+Find a product…
+Features
+No features
+Logs
+POST /v1/products/prod_SccEXHQ9ajkV8q
+200 OK
+7/5/25, 3:42:57 AM
+POST /v1/prices
+200 OK
+7/5/25, 3:42:57 AM
+POST /v1/products
+200 OK
+7/5/25, 3:42:57 AM
+Events
+A product with ID prod_SccEXHQ9ajkV8q was updated
+7/5/25, 3:42:58 AM
+A new price called price_1RhN09PsdFeqUwFmXms1VNav was created
+7/5/25, 3:42:57 AM
+A new plan called price_1RhN09PsdFeqUwFmXms1VNav was created
+7/5/25, 3:42:57 AM
+A product with ID prod_SccEXHQ9ajkV8q was created
+7/5/25, 3:42:57 AM
+Insights
+MRR
+$0.00
+As of Jul 6
+Details
+Product ID
+prod_SccEXHQ9ajkV8q
+Marketing feature list
+—
+Description
+Get 637 minutes ($0.94/min value), 2 AI voice agents, and full HIPAA/legal compliance features. Includes advanced call analytics, custom voice training, and multiple system integrations. Priority support included.Perfect for small law firms and mid-sized medical practices handling 100–200 calls/day.
+Attributes
+—
+View more
+Metadata
+No metadata
+
+Enterprise
+Active
+$1,899.00 USD
+•
+Per month
+Edit product
+Pricing
+Price
+​
+Description
+Subscriptions
+Created
+$1,899.00 USD
+Per month
+Default
+—
+0 active
+Jul 5
+1 result
+Cross-sells
+Suggest a related product for customers to add to their order, right in Checkout.
+Learn more.
+Cross-sells to
+Find a product…
+Features
+No features
+Logs
+POST /v1/products/prod_SccHtUNdes7MNi
+200 OK
+7/5/25, 3:48:32 AM
+POST /v1/products/prod_SccHtUNdes7MNi
+200 OK
+7/5/25, 3:48:31 AM
+POST /v1/products/prod_SccHtUNdes7MNi
+200 OK
+7/5/25, 3:47:15 AM
+POST /v1/products/prod_SccHtUNdes7MNi
+200 OK
+7/5/25, 3:47:14 AM
+POST /v1/products/prod_SccHtUNdes7MNi
+200 OK
+7/5/25, 3:45:32 AM
+Inspect more logs in Workbench
+Events
+A product with ID prod_SccHtUNdes7MNi was updated
+7/5/25, 3:48:32 AM
+A product with ID prod_SccHtUNdes7MNi was updated
+7/5/25, 3:48:31 AM
+A product with ID prod_SccHtUNdes7MNi was updated
+7/5/25, 3:47:15 AM
+The price_1RhN2ePsdFeqUwFmPsvS3a6b price was updated
+7/5/25, 3:47:15 AM
+The price_1RhN2ePsdFeqUwFmPsvS3a6b plan changed
+7/5/25, 3:47:15 AM
+A product with ID prod_SccHtUNdes7MNi was updated
+7/5/25, 3:47:14 AM
+A product with ID prod_SccHtUNdes7MNi was updated
+7/5/25, 3:45:32 AM
+A new price called price_1RhN2ePsdFeqUwFmPsvS3a6b was created
+7/5/25, 3:45:32 AM
+A new plan called price_1RhN2ePsdFeqUwFmPsvS3a6b was created
+7/5/25, 3:45:32 AM
+A product with ID prod_SccHtUNdes7MNi was created
+7/5/25, 3:45:32 AM
+Insights
+MRR
+$0.00
+As of Jul 6
+Details
+Product ID
+prod_SccHtUNdes7MNi
+Marketing feature list
+—
+Description
+Scale Without Limits – Built for Enterprise Includes 2,261 minutes ($0.84/min value) and unlimited AI voice agents. Features white-label options, SLA guarantees, custom development, and a dedicated account manager. 24/7 phone support included. Ideal for large firms and hospital systems managing 400+ calls/day.
+Attributes
+—
+View more
+Metadata
+No metadata

@@ -1,0 +1,317 @@
+/* AgenticVoice Admin - Responsive Layout Utilities */
+/* Mobile-first responsive design with consistent breakpoints */
+
+/* Breakpoints:
+   - Mobile: < 768px
+   - Tablet: 768px - 1023px  
+   - Desktop: >= 1024px
+*/
+
+/* Base responsive containers */
+.responsive-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 767px) {
+  .responsive-container {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 479px) {
+  .responsive-container {
+    padding: 0 12px;
+  }
+}
+
+/* Dashboard Grid */
+.dashboard-grid {
+  display: grid;
+  gap: 24px;
+}
+
+@media (max-width: 767px) {
+  .dashboard-grid {
+    gap: 16px;
+  }
+}
+
+/* Grid Item - spans handled dynamically */
+.grid-item {
+  display: block;
+}
+
+/* Content Layout */
+.content-layout {
+  display: grid;
+  align-items: start;
+}
+
+/* Mobile Stack - layout handled dynamically */
+.mobile-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section - padding handled dynamically */
+.section {
+  display: block;
+}
+
+/* Page Layout */
+.page-layout {
+  min-height: 100vh;
+  transition: padding-left 0.3s ease;
+}
+
+/* Card Grid */
+.card-grid {
+  display: grid;
+}
+
+@media (max-width: 767px) {
+  .card-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+}
+
+/* Mobile Navigation Utilities */
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+}
+
+.mobile-menu-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  max-width: 85vw;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* Enhanced Sidebar Responsive */
+@media (max-width: 767px) {
+  .enhanced-admin-sidebar {
+    display: none !important;
+  }
+}
+
+/* Enhanced Header Responsive */
+.enhanced-admin-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  transition: margin-left 0.3s ease;
+}
+
+@media (max-width: 767px) {
+  .enhanced-admin-header {
+    margin-left: 0 !important;
+  }
+}
+
+/* Breadcrumb Responsive */
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 767px) {
+  .breadcrumb-container {
+    font-size: 14px;
+  }
+}
+
+.page-breadcrumb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+  .page-breadcrumb-header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+}
+
+/* Button responsive adjustments */
+@media (max-width: 767px) {
+  .button-responsive {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Card responsive adjustments */
+@media (max-width: 767px) {
+  .card-responsive {
+    margin-bottom: 16px;
+  }
+}
+
+/* Input responsive adjustments */
+@media (max-width: 767px) {
+  .input-responsive {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+
+/* Typography responsive adjustments */
+.heading-responsive {
+  line-height: 1.2;
+}
+
+@media (max-width: 767px) {
+  .heading-responsive {
+    font-size: 0.9em;
+    line-height: 1.3;
+  }
+}
+
+/* Utility classes for responsive visibility */
+.hide-mobile {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+.hide-desktop {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .hide-desktop {
+    display: block !important;
+  }
+}
+
+.hide-tablet {
+  display: block;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hide-tablet {
+    display: none !important;
+  }
+}
+
+/* Spacing utilities for responsive design */
+.spacing-responsive-sm {
+  margin: 8px;
+}
+
+.spacing-responsive-md {
+  margin: 16px;
+}
+
+.spacing-responsive-lg {
+  margin: 24px;
+}
+
+@media (max-width: 767px) {
+  .spacing-responsive-sm {
+    margin: 4px;
+  }
+  
+  .spacing-responsive-md {
+    margin: 8px;
+  }
+  
+  .spacing-responsive-lg {
+    margin: 12px;
+  }
+}
+
+/* Flex utilities for responsive design */
+.flex-responsive {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 767px) {
+  .flex-responsive {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+.flex-responsive-reverse {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 767px) {
+  .flex-responsive-reverse {
+    flex-direction: column-reverse;
+    gap: 12px;
+  }
+}
+
+/* Animation performance optimizations */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .card-grid,
+  .dashboard-grid,
+  .stats-grid {
+    border: 2px solid;
+  }
+}
+
+/* Print styles */
+@media print {
+  .mobile-menu-overlay,
+  .mobile-menu-panel,
+  .enhanced-admin-sidebar,
+  .enhanced-admin-header {
+    display: none !important;
+  }
+  
+  .page-layout {
+    padding: 0 !important;
+  }
+  
+  .responsive-container {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+}

@@ -1,0 +1,21 @@
+Pay Per Use:  prod_Scc94CwCJx1IlW
+Essential: prod_SdNz1qXtBXluHC
+Starter:  prod_ScQa68B3EWN2zf
+Professional:  prod_SccEXHQ9ajkV8q
+Business:  prod_SccL18Pwsbxt7Z
+Enterprise:  prod_SccHtUNdes7MNi
+
+
+Pay Per Use:  price_1RhMvPPsdFeqUwFmNZeHBZXT
+Essential: price_1Ri7DaPsdFeqUwFmNEF5PAdL
+Starter:   price_1RhMyTPsdFeqUwFmPpSMVGOM
+Professional:  price_1RhN09PsdFeqUwFmXms1VNav
+Business:  price_1RhN74PsdFeqUwFmLrUy2uGT
+Enterprise:  price_1RhN2ePsdFeqUwFmPsvS3a6b
+
+Pay Per Use:  $1.25 per minute
+Essential: $99 per month
+Starter:   $299 per month
+Professional:  $599 per month
+Business:  $999 per month
+Enterprise:  $1,899 per month

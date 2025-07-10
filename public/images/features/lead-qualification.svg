@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="10" fill="#FFEDD5"/>
+  <rect x="100" y="80" width="200" height="160" rx="8" fill="white" stroke="#F97316" stroke-width="3"/>
+  <path d="M120 120L280 120" stroke="#F97316" stroke-width="2"/>
+  <path d="M120 160L280 160" stroke="#F97316" stroke-width="2"/>
+  <path d="M120 200L280 200" stroke="#F97316" stroke-width="2"/>
+  <rect x="140" y="100" width="10" height="10" rx="2" fill="#FDBA74"/>
+  <rect x="140" y="140" width="10" height="10" rx="2" fill="#FDBA74"/>
+  <rect x="140" y="180" width="10" height="10" rx="2" fill="#FDBA74"/>
+  <path d="M160 105H240" stroke="#FDBA74" stroke-width="2"/>
+  <path d="M160 145H260" stroke="#FDBA74" stroke-width="2"/>
+  <path d="M160 185H220" stroke="#FDBA74" stroke-width="2"/>
+  <circle cx="300" cy="100" r="30" fill="#FED7AA" stroke="#F97316" stroke-width="2"/>
+  <path d="M290 100L300 110L315 95" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="300" cy="160" r="30" fill="#FED7AA" stroke="#F97316" stroke-width="2"/>
+  <path d="M290 160L300 170L315 155" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="300" cy="220" r="30" fill="#FED7AA" stroke="#F97316" stroke-width="2"/>
+  <path d="M300 210V230" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M290 220H310" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="50" font-family="Arial" font-weight="bold" font-size="16" fill="#EA580C" text-anchor="middle">LEAD QUALIFICATION</text>
+</svg>

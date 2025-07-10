@@ -1,0 +1,33 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="58" fill="#7C3AED" stroke="#5B21B6" stroke-width="4"/>
+  
+  <!-- Sound Waves (representing voice) -->
+  <path d="M30 60C30 60 35 45 35 60C35 75 30 60 30 60" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M25 60C25 60 32 40 32 60C32 80 25 60 25 60" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M20 60C20 60 29 35 29 60C29 85 20 60 20 60" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- AI Brain/Network Icon (center) -->
+  <g transform="translate(45, 45)">
+    <!-- Central node -->
+    <circle cx="15" cy="15" r="8" fill="white"/>
+    <circle cx="15" cy="15" r="5" fill="#7C3AED"/>
+    
+    <!-- Connecting nodes -->
+    <circle cx="5" cy="5" r="3" fill="white" opacity="0.9"/>
+    <circle cx="25" cy="5" r="3" fill="white" opacity="0.9"/>
+    <circle cx="5" cy="25" r="3" fill="white" opacity="0.9"/>
+    <circle cx="25" cy="25" r="3" fill="white" opacity="0.9"/>
+    
+    <!-- Connection lines -->
+    <line x1="15" y1="15" x2="5" y2="5" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="15" x2="25" y2="5" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="15" x2="5" y2="25" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="15" x2="25" y2="25" stroke="white" stroke-width="2" opacity="0.7"/>
+  </g>
+  
+  <!-- Sound Waves (right side) -->
+  <path d="M90 60C90 60 85 45 85 60C85 75 90 60 90 60" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M95 60C95 60 88 40 88 60C88 80 95 60 95 60" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M100 60C100 60 91 35 91 60C91 85 100 60 100 60" stroke="white" stroke-width="3" stroke-linecap="round"/>
+</svg>

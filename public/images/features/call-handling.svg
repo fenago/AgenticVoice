@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="10" fill="#F0FDF4"/>
+  <circle cx="200" cy="150" r="100" fill="#DCFCE7"/>
+  <path d="M175 125c-5.523 0-10 4.477-10 10v30c0 5.523 4.477 10 10 10h50c5.523 0 10-4.477 10-10v-30c0-5.523-4.477-10-10-10h-50z" fill="#22C55E"/>
+  <path d="M235 135v30c0 5.523-4.477 10-10 10h-50c-5.523 0-10-4.477-10-10v-30c0-5.523 4.477-10 10-10h50c5.523 0 10 4.477 10 10z" fill="white"/>
+  <circle cx="200" cy="150" r="15" fill="#22C55E"/>
+  <path d="M190 140h20v20h-20v-20z" fill="white"/>
+  <path d="M240 150h-20" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M240 140h-15" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M240 160h-20" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M180 150h-20" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M180 140h-15" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M180 160h-20" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M130 100a70 70 0 0 1 140 0" stroke="#16A34A" stroke-width="4" stroke-dasharray="8 8"/>
+  <path d="M130 200a70 70 0 0 0 140 0" stroke="#16A34A" stroke-width="4" stroke-dasharray="8 8"/>
+  <circle cx="130" cy="100" r="8" fill="#16A34A"/>
+  <circle cx="270" cy="100" r="8" fill="#16A34A"/>
+  <circle cx="130" cy="200" r="8" fill="#16A34A"/>
+  <circle cx="270" cy="200" r="8" fill="#16A34A"/>
+  <path d="M200 100v-20" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M200 220v-20" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="200" cy="80" r="5" fill="#16A34A"/>
+  <circle cx="200" cy="220" r="5" fill="#16A34A"/>
+  <text x="200" y="240" font-family="Arial" font-weight="bold" font-size="14" fill="#16A34A" text-anchor="middle">24/7 AVAILABILITY</text>
+</svg>
