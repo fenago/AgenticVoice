@@ -3,8 +3,6 @@ import { getServerSession } from 'next-auth/next';
 import { authOptions } from '@/libs/auth-config';
 import HubSpotService from '@/libs/hubspot';
 
-const hubspot = new HubSpotService();
-
 // Utility functions for engagement data transformation
 function mapActivityType(activityType: string): string {
   const typeMap: { [key: string]: string } = {
@@ -83,6 +81,9 @@ export async function GET(request: NextRequest) {
     const limit = parseInt(searchParams.get('limit') || '50');
 
     try {
+      // Initialize HubSpot service inside the function to avoid build-time errors
+      const hubspot = new HubSpotService();
+      
       // Use the available getRecentActivities method
       const activities = await hubspot.getRecentActivities(limit);
       
